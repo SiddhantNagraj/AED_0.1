@@ -18,7 +18,7 @@ public class HelpSeeker  extends Person{
     private boolean hasSensorDevice = false;
     private boolean hasCardiacProb = false;
     private boolean getAlerts = false;
-    private ArrayList<VitalSign> vitalSignList;
+    private ArrayList<VitalSigns> vitalSignList;
     private ArrayList<String> vitalSignTrackList;
     private boolean sendDataToDoctor = false;
     private SensorDevice sensorDevice;
